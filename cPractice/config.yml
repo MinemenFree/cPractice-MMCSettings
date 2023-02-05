@@ -8,10 +8,10 @@ ESSENTIAL_SPAWN_LOCATION: world:229.5:70.0:252.5:180.0:0.0
 DEFAULT_LANG: EN
 MOD_MODE: true
 SAVE_METHOD: MONGO
-PURCHASE-COSMETICS-CMD: pex user {player} setpermission cosmetics.killeffects.{effect}
+PURCHASE-COSMETICS-CMD: pex user <player> setpermission cosmetics.killeffects.<effect>
 CHAT:
-  DEFAULT_FORMAT: '{prefix}{player}&7:&r {message}'
-  CLAN_FORMAT: '&7[{clan}&7] &r{prefix}{player}&7:&r {message}'
+  DEFAULT_FORMAT: '<prefix><player>&7:&r <message>'
+  CLAN_FORMAT: '&7[<clan>&7] &r<prefix><player>&7:&r <message>'
 MATCH:
   ROUNDS_BRIDGE: 3
   ROUNDS_RANKED_SUMO: 1
@@ -33,8 +33,8 @@ QUEUE:
     NAME_FORMAT: '&l'
     LORE:
     - ''
-    - '&ePlaying: &d{in-fight}'
-    - '&eQueueing: &d{in-queue}'
+    - '&ePlaying: &d<in-fight>'
+    - '&eQueueing: &d<in-queue>'
     - ''
     - '&eClick to play!'
   RANKED:
@@ -43,10 +43,10 @@ QUEUE:
     NAME_FORMAT: '&l'
     LORE:
     - ''
-    - '&ePlaying&7: &r{in-fight}'
-    - '&eQueueing&7: &r{in-queue}'
+    - '&ePlaying&7: &r<in-fight>'
+    - '&eQueueing&7: &r<in-queue>'
     - ''
-    - '&e&lYOUR ELO: &d&l{elo}'
+    - '&e&lYOUR ELO: &d&l<elo>'
     - ''
     - '&eClick to play!'
 QUEUES:
@@ -110,19 +110,19 @@ NAMETAGS:
   CLAN_FORMAT: '&7[%color%%clan%&7] &r'
   STAFF_FORMAT: '&e[Staff] %color%'
 STATS_MENU:
-  TITLE: '&e&l{player}''s Statistics'
-  ITEM_NAME: '&e&l{kit}'
+  TITLE: '&e&l<player>''s Statistics'
+  ITEM_NAME: '&e&l<kit>'
   SIZE: 6
   DESCRIPTION:
-  - '{bars}'
+  - '<bars>'
   - '&e&lGlobal'
-  - ' &eTitle: &d{division}'
+  - ' &eTitle: &d<division>'
   - ''
   - '&e&lUnranked'
-  - ' &eWins: &d{wins}'
-  - ' &eLosses: &d{losses}'
+  - ' &eWins: &d<wins>'
+  - ' &eLosses: &d<losses>'
   - ''
   - '&e&lRanked'
-  - ' &eElo: &d{elo}'
-  - '{bars}'
+  - ' &eElo: &d<elo>'
+  - '<bars>'
 WINNING-POINTS-CLAN-TOURNAMENT: 10

@@ -1,8 +1,8 @@
 TABLIST:
   LEFT:
     '1':
-      text: '{bars}'
-      head: '{gray}'
+      text: '<bars>'
+      head: '<gray>'
     '2':
       text: ''
       head: ''
@@ -53,22 +53,22 @@ TABLIST:
       head: ''
     '18':
       text: '&cDiscord'
-      head: '{discord}'
+      head: '<discord>'
     '19':
       text: '&7discord.gg/MinemenClub'
-      head: '{pink}'
+      head: '<pink>'
     '20':
-      text: '{bars}'
-      head: '{gray}'
+      text: '<bars>'
+      head: '<gray>'
   CENTER:
     '1':
-      text: '{bars}'
-      head: '{gray}'
+      text: '<bars>'
+      head: '<gray>'
     '2':
       text: '&d&lSeason 1'
       head: ''
     '3':
-      text: '&7{online}/{slots}'
+      text: '&7<online>/<slots>'
       head: ''
     '4':
       text: ''
@@ -114,17 +114,17 @@ TABLIST:
       head: ''
     '18':
       text: '&dTwitter'
-      head: '{twitter}'
+      head: '<twitter>'
     '19':
       text: '&7@MinemenClub'
-      head: '{pink}'
+      head: '<pink>'
     '20':
-      text: '{bars}'
-      head: '{gray}'
+      text: '<bars>'
+      head: '<gray>'
   RIGHT:
     '1':
-      text: '{bars}'
-      head: '{gray}'
+      text: '<bars>'
+      head: '<gray>'
     '2':
       text: ''
       head: ''
@@ -136,18 +136,18 @@ TABLIST:
       head: ''
     '5':
       text: '&d&lEvent Information'
-      head: '{dark_blue}'
+      head: '<dark_blue>'
     '6':
-      text: ' &dName&7: &f{event}'
+      text: ' &dName&7: &f<event>'
       head: ''
     '7':
-      text: ' &dHost&7: {hoster}'
+      text: ' &dHost&7: <hoster>'
       head: ''
     '8':
-      text: ' &dPlayers&7: {remaining-players}/{max-players}'
+      text: ' &dPlayers&7: <remaining-players>/<max-players>'
       head: ''
     '9':
-      text: ' &dMap&7: &f{map-name}'
+      text: ' &dMap&7: &f<map-name>'
       head: ''
     '10':
       text: ''
@@ -175,17 +175,17 @@ TABLIST:
       head: ''
     '18':
       text: '&dTeamSpeak'
-      head: '{brayding}'
+      head: '<brayding>'
     '19':
       text: '&7ts.minemen.club'
-      head: '{pink}'
+      head: '<pink>'
     '20':
-      text: '{bars}'
-      head: '{gray}'
+      text: '<bars>'
+      head: '<gray>'
   EXTERNAL-RIGHT:
     '1':
-      text: '{bars}'
-      head: '{gray}'
+      text: '<bars>'
+      head: '<gray>'
     '2':
       text: ''
       head: ''
@@ -209,15 +209,15 @@ TABLIST:
       head: ''
     '9':
       text: '&d&lYour Information'
-      head: '{player}'
+      head: '<player>'
     '10':
-      text: '&dName&7: &f{name}'
+      text: '&dName&7: &f<name>'
       head: ''
     '11':
-      text: '&dRank&7: &f{rank-suffix}'
+      text: '&dRank&7: &f<rank-suffix>'
       head: ''
     '12':
-      text: '&dPing&7: &f{ping}'
+      text: '&dPing&7: &f<ping>'
       head: ''
     '13':
       text: ''
@@ -236,10 +236,10 @@ TABLIST:
       head: ''
     '18':
       text: '&dWebsite'
-      head: '{ziue}'
+      head: '<ziue>'
     '19':
       text: '&7www.minemen.club'
-      head: '{pink}'
+      head: '<pink>'
     '20':
-      text: '{bars}'
-      head: '{gray}'
+      text: '<bars>'
+      head: '<gray>'

@@ -11,27 +11,27 @@ TABLIST:
   HEADER: '&eYou''re playing &d&lEU Practice &eon &deu.minemen.club'
   FOOTER: '&eBuy ranks and more here: &d&lstore.minemen.club'
 ELO:
-  VIEW_FORMAT: '&e&l{kit} | {elo}'
+  VIEW_FORMAT: '&e&l<kit> | <elo>'
   VIEW_YOUR:
-  - '{bars}'
+  - '<bars>'
   - ' &e&lElo'
   - ''
-  - '{format}'
-  - '{bars}'
+  - '<format>'
+  - '<bars>'
   VIEW_OTHER:
-  - '{bars}'
-  - ' &e&lElo &d{player}'
+  - '<bars>'
+  - ' &e&lElo &d<player>'
   - ''
-  - '{format}'
-  - '{bars}'
+  - '<format>'
+  - '<bars>'
 DUEL:
   SELECT:
     ARENA_MENU:
       TITLE: '&e&lSelect an arena'
       MATERIAL: PAPER
-      NAME: '&e&l{name}'
+      NAME: '&e&l<name>'
       RANDOM_MATERIAL: NETHER_STAR
       RANDOM_NAME: '&eRandom Arena'
     KIT_MENU:
       TITLE: '&e&lSelect a kit'
-      NAME: '&e&l{name}'
+      NAME: '&e&l<name>'

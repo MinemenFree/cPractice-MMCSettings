@@ -4,32 +4,32 @@ INVENTORY:
     TITLE: '&e&lTop 10 Global'
     POSITIONS:
       '1':
-      - '&e{pos} &d{name}&7: &e{data}'
+      - '&e<pos> &d<name>&7: &e<data>'
       '2':
-      - '&e{pos} &d{name}&7: &e{data}'
+      - '&e<pos> &d<name>&7: &e<data>'
       '3':
-      - '&e{pos} &d{name}&7: &e{data}'
-      - '{bars}'
+      - '&e<pos> &d<name>&7: &e<data>'
+      - '<bars>'
       ANOTHER:
-      - '&e{pos} &d{name}&7: &e{data}'
+      - '&e<pos> &d<name>&7: &e<data>'
   PERSONAL_STATS:
-    TITLE: '&e&lStatistics &d{name}'
-    KITS_FORMAT: '&e{kit}&7: &d{data}'
+    TITLE: '&e&lStatistics &d<name>'
+    KITS_FORMAT: '&e<kit>&7: &d<data>'
     DESCRIPTION:
-    - '{bars}'
-    - '{kits}'
+    - '<bars>'
+    - '<kits>'
     - ''
-    - '&eGlobal&7: &d{elo}'
-    - '{bars}'
+    - '&eGlobal&7: &d<elo>'
+    - '<bars>'
   KIT:
-    TITLE: '&e&l{kit} Top 10'
+    TITLE: '&e&l<kit> Top 10'
     POSITIONS:
       '1':
-      - '&e{pos} &d{name}&7: &e{data}'
+      - '&e<pos> &d<name>&7: &e<data>'
       '2':
-      - '&e{pos} &d{name}&7: &e{data}'
+      - '&e<pos> &d<name>&7: &e<data>'
       '3':
-      - '&e{pos} &d{name}&7: &e{data}'
-      - '{bars}'
+      - '&e<pos> &d<name>&7: &e<data>'
+      - '<bars>'
       ANOTHER:
-      - '&e{pos} &d{name}&7: &e{data}'
+      - '&e<pos> &d<name>&7: &e<data>'

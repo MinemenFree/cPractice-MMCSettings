@@ -6,7 +6,7 @@ KITEDITOR:
     - ''
     - '&eClick to select!'
   MANAGE:
-    TITLE: '&eViewing &d{kit} &ekits'
+    TITLE: '&eViewing &d<kit> &ekits'
     NAMECOLOR: '&d'
   DeleteKitButton:
     NAME: '&cDelete'
@@ -19,4 +19,4 @@ KITEDITOR:
     NAME: '&dLoad/Edit'
     LORE: '&dClick to edit this kit.'
   KitDisplayButton:
-    NAME: '&d{kit}'
+    NAME: '&d<kit>'
