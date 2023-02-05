@@ -1,0 +1,37 @@
+FAILED_LOAD_PROFILE: '&cFailed to load your profile. Try again later.'
+MOTD:
+- '&dMinemen Club ┃ EU &fProxy'
+- '&d▶ &f&lBRIDGES UPDATE!'
+DISCORD: discord.minemen.club
+STORE: store.minemen.club
+TEAMSPEAK: ts.minemen.club
+TWITTER: '@MinemenClub'
+WEBSITE: www.minemen.club
+TABLIST:
+  HEADER: '&eYou''re playing &d&lEU Practice &eon &deu.minemen.club'
+  FOOTER: '&eBuy ranks and more here: &d&lstore.minemen.club'
+ELO:
+  VIEW_FORMAT: '&e&l{kit} | {elo}'
+  VIEW_YOUR:
+  - '{bars}'
+  - ' &e&lElo'
+  - ''
+  - '{format}'
+  - '{bars}'
+  VIEW_OTHER:
+  - '{bars}'
+  - ' &e&lElo &d{player}'
+  - ''
+  - '{format}'
+  - '{bars}'
+DUEL:
+  SELECT:
+    ARENA_MENU:
+      TITLE: '&e&lSelect an arena'
+      MATERIAL: PAPER
+      NAME: '&e&l{name}'
+      RANDOM_MATERIAL: NETHER_STAR
+      RANDOM_NAME: '&eRandom Arena'
+    KIT_MENU:
+      TITLE: '&e&lSelect a kit'
+      NAME: '&e&l{name}'

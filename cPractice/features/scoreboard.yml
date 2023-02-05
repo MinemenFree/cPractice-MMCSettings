@@ -1,0 +1,308 @@
+TITLE-TASK: 0.3
+TITLE:
+- '&d&lEU PRACTICE'
+FOOTER-ENABLED: true
+FOOTER-TASK: 0.3
+FOOTER:
+- '&deu.minemen.club'
+LINES:
+  BARS: '&7&m----------------------'
+  LOBBY:
+  - '&fOnline: &d{online}'
+  - '&fPlaying: &d{in-fights}'
+  IN-QUEUE:
+  - ''
+  - '&fQueue:'
+  - '&d{queue}'
+  - '{ranked}'
+  - ' &fPing Range:'
+  - '{pingrange}'
+  RANKED-QUEUE:
+  - ' &fELO Range:'
+  - ' &d[{min-range} -> &d{max-range}]'
+  PINGRANGE-QUEUE: '&d [{range}]'
+  PARTY:
+    LINES:
+    - '{bars}'
+    - '&dYour Party'
+    MEMBERS-FORMAT: ' &7* &d{player}'
+    INFO:
+    - ' &fLeader&7: &d{leader}'
+    - ' &fSize&7: &d{size}'
+CLAN:
+  LINES:
+  - '{bars}'
+  - '&dClan&7: &f{color}{name}'
+  - '  &dCategory&7: &f{category}'
+  - '  &dOnline&7: &7{size}'
+STAFF_MODE:
+  LOBBY:
+  - '&d&lSTAFFMODE'
+  - '* &dPlayers&7: &f{players} &7({staffs})'
+  - '* &dIn Fight&7: &f{in-fight}'
+  - '* &dTPS&7: &f{tps}'
+  - '&7&m----------------------'
+  SPECTATING:
+  - '&d&lVIEWING MATCH'
+  - ''
+  - '&d{playerA} &f({playerA-ping} ms)'
+  - '&fvs.'
+  - '&d{playerB} &f({playerB-ping} ms)'
+  - ''
+  - '&fDuration&7: &d{duration}'
+  - ' '
+FIGHTS:
+  SPECTATING:
+  - '&d&lVIEWING MATCH'
+  - ''
+  - '&d{playerA} &f({playerA-ping} ms)'
+  - '&fvs.'
+  - '&d{playerB} &f({playerB-ping} ms)'
+  - ''
+  - '&fDuration&7: &d{duration}'
+  - ' '
+  FFA:
+  - '&fPlaying FFA:'
+  - ' &d{kit}'
+  - ''
+  - ' &fPlayers: &d{players}'
+  - ''
+  - '&fYour Ping: &d{ping}'
+  PARTY-FFA:
+    IS-ALIVE:
+    - '&fDuration&7: &d{duration}'
+    - '&fOpponents&7: &d{opponents-size}'
+    IS-DEAD-OR-SPECTATOR:
+    - '&fKit&7: &d{kit}'
+    - '&fDuration&7: &d{duration}'
+    - '&fTeams&7: &d{teams}'
+  1V1:
+    BOXING-MODE:
+    - '&fHits: {hits}'
+    - ' &fYou: &d{your-hits}'
+    - ' &fThem: &d{opponent-hits}'
+    - ' {combo} Combo'
+    - ''
+    - '&fYour Ping: &d{player-ping} ms'
+    - '&fTheir Ping: &d{opponent-ping} ms'
+    LINES:
+    - '&fYour Ping: &d{player-ping} ms'
+    - '&fTheir Ping: &d{opponent-ping} ms'
+    - '{bridge}'
+    - '{rounds}'
+  SMALL-TEAM:
+    LINES:
+    - '&fDuration&7: &d{duration}'
+    - ''
+    - '{bridge}'
+    - '{no-bridge}'
+    - '{rounds}'
+    NO-BRIDGE:
+      PLAYERS-FORMAT: ' {player}'
+      OPPONENTS-FORMAT: ' {opponent}'
+      LINES:
+      - '&d&lTeam &7(&f{team-alive}&7/&f{team-size}&7)'
+      - '{players}'
+      - ''
+      - '&d&lOpponents &7(&f{opponent-alive}&7/&f{opponent-size}&7)'
+      - '{opponents}'
+  BIG-TEAM:
+    LINES:
+    - '&fDuration&7: &d{duration}'
+    - '&fAuthor&7: &d{arena-author}'
+    - '&fTeam: &7(&d{team-alive}&7/&d{team-size}&7)'
+    - '&fOpponents: &7(&d{opponent-alive}&7/&d{opponent-size}&7)'
+    - '{bridge}'
+    - '{rounds}'
+  BRIDGE-FORMAT:
+    LINES:
+    - '&dKills&7: &f{kills}'
+    - '{points}'
+    RED: '&c[R]&7:&f {string-points}'
+    BLUE: '&d[B]&7:&f {string-points}'
+  ON-END-ROUND-FOR-NEXT:
+  - '&fMatch ended'
+  ROUND-START: '&dRounds&7: &r{round}'
+TOURNAMENTS:
+  SOLO:
+    LINES:
+    - '{bars}'
+    - '&c&lSolo Tournament'
+    - '&fKit&7: &c{kit}'
+    - '&fPlayers&7: &c{size}&7/&c{limit}'
+    - '&fState&7: &c{state}'
+    IN-FIGHT:
+    - '&fRound&7: &c#{round}'
+    ON-END:
+    - '&c&lWinner: {color}{player}'
+  TEAMS:
+    LINES:
+    - '{bars}'
+    - '&c&lTeams Tournament'
+    - '&fKit&7: &d{kit}'
+    - '&fTeams&7: &d{size}&7/&c{limit}'
+    - '&fState&7: &c{state}'
+    IN-FIGHT:
+    - '&fRound&7: &c#{round}'
+    ON-END:
+    - '&c&lWinner: {color}{player} &cTeam'
+  CLANS:
+    LINES:
+    - '{bars}'
+    - '&c&lClans Tournament'
+    - '&fKit&7: &c{kit}'
+    - '&fTeams&7: &c{size}&7/&c{limit}'
+    - '&fState&7: &c{state}'
+    IN-FIGHT:
+    - '&fRound&7: &c#{round}'
+    ON-END:
+    - '&c&lClan Winner: {color}{player}'
+EVENTS:
+  GULAG:
+    LINES:
+    - '&cEvent &7({event-name})'
+    - ' &7&l* &fPlayers&7: &cf{players}&7/&c{max-players})'
+    ROUND:
+    - ' &7&l* &fRound&7: &c{round}'
+    WAITING-FOR-PLAYERS:
+    - ' &7&l* &7Waiting for players'
+    STARTING-EVENT:
+    - ' &7&l* &fStarting In&7: &c{time}'
+    STARTING-ROUND:
+    - ' &7&l* &fStart Round In&7: &c{time}'
+    PLAYING-ROUND:
+    - '&8{bars}'
+    - '{playerA}'
+    - '&cvs'
+    - '{playerB}'
+    ENDING-ROUND:
+    - '&8{bars}'
+    - '&7Waiting...'
+    ENDING-EVENT:
+    - ' &7&l* &fRounds&7: &c{rounds}'
+    - '&8{bars}'
+    - '&cWinner&7: &c{winner}'
+    MAP-VOTES:
+    - '&8{bars}'
+    - '&cMap Votes'
+    - '{votes-format}'
+    VOTES-FORMAT: ' &7&l* &c{map-name} &7({size} votes)'
+  BRACKETS:
+    LINES:
+    - '&4Event &7({event-name})'
+    - ' &7&l* &cPlayers&7: &f{players}&7/&f{max-players})'
+    ROUND:
+    - ' &7&l* &fRound&7: &c{round}'
+    WAITING-FOR-PLAYERS:
+    - ' &7&l* &7Waiting for players'
+    STARTING-EVENT:
+    - ' &7&l* &fStarting In&7: &c{time}'
+    STARTING-ROUND:
+    - ' &7&l* &fStart Round In&7: &c{time}'
+    PLAYING-ROUND:
+    - '&8{bars}'
+    - '{playerA}'
+    - '&cvs'
+    - '{playerB}'
+    ENDING-ROUND:
+    - '&8{bars}'
+    - '&7Waiting...'
+    ENDING-EVENT:
+    - ' &7&l* &fRounds&7: &c{rounds}'
+    - '&8{bars}'
+    - '&cWinner&7: &c{winner}'
+    MAP-VOTES:
+    - '&8{bars}'
+    - '&cMap Votes'
+    - '{votes-format}'
+    VOTES-FORMAT: ' &7&l* &c{map-name} &7({size} votes)'
+  SUMO:
+    LINES:
+    - '&4Event &7({event-name})'
+    - ' &7&l* &cPlayers&7: &f{players}&7/&f{max-players})'
+    ROUND:
+    - ' &7&l* &fRound&7: &c{round}'
+    WAITING-FOR-PLAYERS:
+    - ' &7&l* &7Waiting for players'
+    STARTING-EVENT:
+    - ' &7&l* &fStarting In&7: &c{time}'
+    STARTING-ROUND:
+    - ' &7&l* &fStart Round In&7: &c{time}'
+    PLAYING-ROUND:
+    - '&8{bars}'
+    - '{playerA}'
+    - '&cvs'
+    - '{playerB}'
+    ENDING-ROUND:
+    - '&8{bars}'
+    - '&7Waiting...'
+    ENDING-EVENT:
+    - ' &7&l* &fRounds&7: &c{rounds}'
+    - '&8{bars}'
+    - '&cWinner&7: &c{winner}'
+    MAP-VOTES:
+    - '&8{bars}'
+    - '&cMap Votes'
+    - '{votes-format}'
+    VOTES-FORMAT: ' &7&l* &c{map-name} &7({size} votes)'
+  SPLEEF:
+    LINES:
+    - '&4Event &7({event-name})'
+    - ' &7&l* &cPlayers&7: &f{players}&7/&f{max-players})'
+    WAITING-FOR-PLAYERS:
+    - ' &7&l* &7Waiting for players'
+    STARTING-EVENT:
+    - ' &7&l* &cStarting In&7: &f{time}'
+    ENDING-ROUND:
+    - '&8{bars}'
+    - '&7Waiting...'
+    ENDING-EVENT:
+    - '&8{bars}'
+    - '&cWinner&7: &c{winner}'
+    MAP-VOTES:
+    - '&8{bars}'
+    - '&cMap Votes'
+    - '{votes-format}'
+    VOTES-FORMAT: ' &7&l* &c{map-name} &7({size} votes)'
+  TNTRUN:
+    LINES:
+    - '&4Event &7({event-name})'
+    - ' &7&l* &cPlayers&7: &f{players}&7/&f{max-players})'
+    WAITING-FOR-PLAYERS:
+    - ' &7&l* &7Waiting for players'
+    STARTING-EVENT:
+    - ' &7&l* &cStarting In&7: &f{time}'
+    ENDING-ROUND:
+    - '&8{bars}'
+    - '&7Waiting...'
+    ENDING-EVENT:
+    - '&8{bars}'
+    - '&cWinner&7: &c{winner}'
+    MAP-VOTES:
+    - '&8{bars}'
+    - '&cMap Votes'
+    - '{votes-format}'
+    VOTES-FORMAT: ' &7&l* &c{map-name} &7({size} votes)'
+  TNTTAG:
+    LINES:
+    - '&4Event &7({event-name})'
+    - ' &7&l* &cPlayers&7: &f{players}&7/&f{max-players})'
+    WAITING-FOR-PLAYERS:
+    - ' &7&l* &7Waiting for players'
+    STARTING-EVENT:
+    - ' &7&l* &cStarting In&7: &f{time}'
+    ENDING-ROUND:
+    - '&8{bars}'
+    - '&7Waiting...'
+    PLAYING-ROUND:
+    - ''
+    - '&cBomb&7: &c{bomb}'
+    - '&cRemaining&7: &f{time}{context}'
+    ENDING-EVENT:
+    - '&8{bars}'
+    - '&cWinner&7: &c{winner}'
+    MAP-VOTES:
+    - '&8{bars}'
+    - '&cMap Votes'
+    - '{votes-format}'
+    VOTES-FORMAT: ' &7&l* &c{map-name} &7({size} votes)'

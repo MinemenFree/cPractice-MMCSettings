@@ -1,0 +1,9 @@
+MONGO:
+  HOST: n2-c2-mongodb-clevercloud-customers.services.clever-cloud.com
+  PORT: 27017
+  DATABASE: 'bbv2687z72ffunq'
+  AUTHENTICATION:
+    ENABLED: true
+    USERNAME: umd5k33sr6n6ql8ze4pq
+    PASSWORD: 'wXmSL6NZw0Z064GW2G6o'
+    DATABASE: 'bbv2687z72ffunq'

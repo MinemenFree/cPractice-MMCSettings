@@ -1,0 +1,88 @@
+SETTINGS-INVENTORY:
+  TITLE: '&e&lSettings'
+  NAME: <setting_name>
+  SIZE: 1
+  ENABLED: '&a&l   > '
+  DISABLED: '&4&l   > '
+  UNSELECTED: '&7    '
+  NO-PERMISSION: '&eThis feature requires a rank to be accessed, buy it at &dhttps://store.minemen.club'
+  TOP-SPLITTER: '&8&m----------------------------'
+  BOTTOM-SPLITTER: '&8&m----------------------------'
+  SETTINGS:
+    DUEL_REQUEST:
+      NAME: '&eToggle Duel Requests'
+      SLOT: 0
+      ICON: DIAMOND_SWORD
+      LORE:
+      - '&7Click to change'
+      O-ENABLED: '&aEnabled'
+      O-DISABLED: '&cDisabled'
+      SHOW: true
+    NEW-CONVERSATIONS:
+      NAME: '&eToggle New Conversations'
+      SLOT: 1
+      ICON: BOOK
+      LORE:
+      - '&7Click to change'
+      O-ENABLED: '&aEnabled'
+      O-DISABLED: '&cDisabled'
+      SHOW: true
+    PUBLIC-CHAT:
+      NAME: '&eToggle Public Chat'
+      SLOT: 2
+      ICON: PAPER
+      LORE:
+      - '&7Click to change'
+      O-ENABLED: '&aEnabled'
+      O-DISABLED: '&cDisabled'
+      SHOW: true
+    ALLOW_SPECTATORS:
+      NAME: '&eAllow Spectators'
+      SLOT: 3
+      ICON: EMERALD
+      LORE:
+      - '&7Click to change'
+      O-ENABLED: '&aEnabled'
+      O-DISABLED: '&cDisabled'
+      SHOW: true
+    TOGGLE_SCOREBOARD:
+      NAME: '&eToggle Scoreboard'
+      SLOT: 4
+      ICON: PAINTING
+      LORE:
+      - '&7Click to change'
+      O-ENABLED: '&aEnabled'
+      O-DISABLED: '&cDisabled'
+      SHOW: true
+    MESSAGE-SOUNDS:
+      NAME: '&eToggle Message Sounds'
+      SLOT: 5
+      ICON: FLINT
+      LORE:
+      - '&7Click to change'
+      O-ENABLED: '&aEnabled'
+      O-DISABLED: '&cDisabled'
+      SHOW: true
+    VANILLA_TAB:
+      NAME: '&eShow Vanilla Tablist'
+      SLOT: 6
+      ICON: QUARTZ
+      LORE:
+      - '&7Click to change'
+      O-ENABLED: '&aEnabled'
+      O-DISABLED: '&cDisabled'
+      SHOW: true
+    DEATH_EFFECT_SETTINGS:
+      NAME: '&eDeath Effects'
+      SLOT: 7
+      ICON: SKULL_ITEM
+      LORE:
+      - '&7Click to change'
+      SHOW: true
+    MATCHMAKING_SETTINGS:
+      NAME: '&eMatchmaking Settings'
+      SLOT: 8
+      ICON: ENCHANTED_BOOK
+      LORE:
+      - '&7Click to change'
+      SHOW: true

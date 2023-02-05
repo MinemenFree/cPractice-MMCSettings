@@ -1,0 +1,128 @@
+# 
+# You can use 'MONGO' or 'MONGODB' and 'FLATFILE' or 'FILE'
+# If you use the MONGO method you can get information
+# from there for external things like web pages or other statistical things
+TABLIST_ENABLE: true
+MESSAGE-REPLY-BOOLEAN: true
+ESSENTIAL_SPAWN_LOCATION: world:229.5:70.0:252.5:180.0:0.0
+DEFAULT_LANG: EN
+MOD_MODE: true
+SAVE_METHOD: MONGO
+PURCHASE-COSMETICS-CMD: pex user {player} setpermission cosmetics.killeffects.{effect}
+CHAT:
+  DEFAULT_FORMAT: '{prefix}{player}&7:&r {message}'
+  CLAN_FORMAT: '&7[{clan}&7] &r{prefix}{player}&7:&r {message}'
+MATCH:
+  ROUNDS_BRIDGE: 3
+  ROUNDS_RANKED_SUMO: 1
+  REMOVE_BLOCKS_ON_ROUND_END_BRIDGE: false
+  REMOVE_POTION_BOTTLE_ON_CONSUME: false
+  DROP_ITEMS_ON_DEATH: false
+  FAST_POTION: false
+  BOXING_MAX_HITS: 100
+FFA:
+  KIT: NoDebuff
+  SAFEZONE:
+    location1: world:124.0:96.0:-1078.0:0.0:0.0
+    location2: world:126.0:96.0:-1076.0:0.0:0.0
+QUEUE:
+  AMOUNT_PER_FIGHTS: true
+  UNRANKED:
+    INVENTORY_TITLE: '&e&lSolo Unranked Queue'
+    NAME_COLOR: YELLOW
+    NAME_FORMAT: '&l'
+    LORE:
+    - ''
+    - '&ePlaying: &d{in-fight}'
+    - '&eQueueing: &d{in-queue}'
+    - ''
+    - '&eClick to play!'
+  RANKED:
+    INVENTORY_TITLE: '&e&lRanked Queue'
+    NAME_COLOR: YELLOW
+    NAME_FORMAT: '&l'
+    LORE:
+    - ''
+    - '&ePlaying&7: &r{in-fight}'
+    - '&eQueueing&7: &r{in-queue}'
+    - ''
+    - '&e&lYOUR ELO: &d&l{elo}'
+    - ''
+    - '&eClick to play!'
+QUEUES:
+  ENABLED: false
+  PLACEHOLDER-ITEMS-ENABLED: true
+  PLACEHOLDER-ITEM-MATERIAL: STAINED_GLASS_PANE
+  PLACEHOLDER-ITEM-DATA: 7
+  TITLE: '&e&lQueues'
+  SIZE: 3
+  TYPES:
+    UNRANKED:
+      ENABLED: true
+      NAME: '&e&lUnranked'
+      SLOT: 11
+      ICON: IRON_SWORD
+      LORE:
+      - '&8&m--------------------------------'
+      - '&7Casual 1v1''s matches'
+      - '&7with no loss penalty.'
+      - ' '
+      - '&eClick to play!'
+      - '&8&m--------------------------------'
+    RANKED:
+      ENABLED: true
+      NAME: '&e&lRanked'
+      SLOT: 13
+      ICON: DIAMOND_SWORD
+      DATA: 0
+      LORE:
+      - '&8&m--------------------------------'
+      - '&7Casual 1v1''s matches with'
+      - '&7a ranked aspect to them. This'
+      - '&7includes ELO.'
+      - ' '
+      - '&eClick to play!'
+      - '&8&m--------------------------------'
+    FFA:
+      ENABLED: true
+      NAME: '&e&lFFA'
+      SLOT: 15
+      ICON: GOLD_AXE
+      DATA: 0
+      LORE:
+      - '&8&m--------------------------------'
+      - '&7Make your way through the'
+      - '&7course and beat the others!'
+      - '&7The player to reach the goal wins'
+      - ' '
+      - '&ePlaying: &d<players>'
+      - '&eKit: &d<kit>'
+      - ' '
+      - '&eClick to play!'
+      - '&8&m--------------------------------'
+PARTY:
+  DEFAULT_LIMIT: 30
+  VIP_LIMIT: 100
+NAMETAGS:
+  DEFAULT_COLOR: '%color%'
+  PARTY_COLOR: YELLOW
+  EVENT_COLOR: RED
+  CLAN_FORMAT: '&7[%color%%clan%&7] &r'
+  STAFF_FORMAT: '&e[Staff] %color%'
+STATS_MENU:
+  TITLE: '&e&l{player}''s Statistics'
+  ITEM_NAME: '&e&l{kit}'
+  SIZE: 6
+  DESCRIPTION:
+  - '{bars}'
+  - '&e&lGlobal'
+  - ' &eTitle: &d{division}'
+  - ''
+  - '&e&lUnranked'
+  - ' &eWins: &d{wins}'
+  - ' &eLosses: &d{losses}'
+  - ''
+  - '&e&lRanked'
+  - ' &eElo: &d{elo}'
+  - '{bars}'
+WINNING-POINTS-CLAN-TOURNAMENT: 10

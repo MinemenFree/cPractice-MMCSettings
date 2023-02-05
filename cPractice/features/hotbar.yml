@@ -1,0 +1,191 @@
+HOTBAR_ITEMS:
+  QUEUE_JOIN_UNRANKED:
+    SLOT: 1
+    MATERIAL: IRON_SWORD
+    DURABILITY: 0
+    NAME: '&dUnranked Queue &7(Right Click)'
+    LORE: []
+  QUEUE_JOIN_RANKED:
+    SLOT: 2
+    MATERIAL: DIAMOND_SWORD
+    DURABILITY: 0
+    NAME: '&dRanked Queue &7(Right Click)'
+    LORE: []
+  QUEUES_JOIN:
+    SLOT: 1
+    MATERIAL: DIAMOND_SWORD
+    DURABILITY: 0
+    NAME: '&dQueues &7(Right Click)'
+    LORE: []
+  SETTINGS:
+    SLOT: 9
+    MATERIAL: SKULL_ITEM
+    DURABILITY: 0
+    NAME: '&dEdit Settings &7(Right Click)'
+    LORE: []
+  QUEUE_LEAVE:
+    SLOT: 9
+    MATERIAL: REDSTONE
+    DURABILITY: 0
+    NAME: '&cLeave Queue &7(Right Click)'
+    LORE: []
+  PARTY_EVENTS:
+    SLOT: 5
+    MATERIAL: IRON_AXE
+    DURABILITY: 0
+    NAME: '&dStart Party Event &7(Right Click)'
+    LORE: []
+  PARTY_CREATE:
+    SLOT: 5
+    MATERIAL: NAME_TAG
+    DURABILITY: 0
+    NAME: '&dCreate Party &7(Right Click)'
+    LORE: []
+  PARTY_DISBAND:
+    SLOT: 9
+    MATERIAL: NETHER_STAR
+    DURABILITY: 0
+    NAME: '&cLeave Party &7(Right Click)'
+    LORE: []
+  PARTY_LEAVE:
+    SLOT: 9
+    MATERIAL: NETHER_STAR
+    DURABILITY: 0
+    NAME: '&cLeave Party &7(Right Click)'
+    LORE: []
+  PARTY_INFORMATION:
+    SLOT: 8
+    MATERIAL: PAPER
+    DURABILITY: 0
+    NAME: '&dView Party Members &7(Right Click)'
+    LORE: []
+  CLASS_SELECT:
+    SLOT: 2
+    MATERIAL: DIAMOND
+    DURABILITY: 0
+    NAME: '&7(&d!&7) &d&lHCF Kits &7(&d!&7)'
+    LORE: []
+  OTHER_PARTIES:
+    SLOT: 2
+    MATERIAL: CHEST
+    DURABILITY: 0
+    NAME: '&7(&d!&7) &d&lOther Parties &7(&d!&7)'
+    LORE: []
+  KIT_EDITOR:
+    SLOT: 3
+    MATERIAL: BOOK
+    DURABILITY: 0
+    NAME: '&dEdit Kit &7(Right Click)'
+    LORE: []
+  SPECTATE_STOP:
+    SLOT: 9
+    MATERIAL: INK_SACK
+    DURABILITY: 1
+    NAME: '&7(&d!&7) &c&lStop Spectating &7(&d!&7)'
+    LORE: []
+  VIEW_INVENTORY:
+    SLOT: 2
+    MATERIAL: BOOK
+    DURABILITY: 0
+    NAME: '&7(&d!&7) &d&lView Inventory &7(&d!&7)'
+    LORE: []
+  EVENT_JOIN:
+    SLOT: 4
+    MATERIAL: NETHER_STAR
+    DURABILITY: 0
+    NAME: '&7(&d!&7) &d&lJoin Event &7(&d!&7)'
+    LORE: []
+  EVENT_LEAVE:
+    SLOT: 9
+    MATERIAL: NETHER_STAR
+    DURABILITY: 0
+    NAME: '&7(&d!&7) &c&lLeave Event &7(&d!&7)'
+    LORE: []
+  MAP_SELECTION:
+    MATERIAL: MAP
+    DURABILITY: 0
+    NAME: '&7(&d!&7) &d&l%MAP% &7(&d!&7)'
+    LORE: []
+  REMATCH_REQUEST:
+    SLOT: 4
+    MATERIAL: BLAZE_POWDER
+    DURABILITY: 0
+    NAME: '&aRequest Rematch &7(Right Click)'
+    LORE: []
+  REMATCH_ACCEPT:
+    SLOT: 4
+    MATERIAL: DIAMOND
+    DURABILITY: 0
+    NAME: '&dAccept Rematch &7(Right Click)'
+    LORE: []
+  KIT_SELECTION:
+    MATERIAL: ENCHANTED_BOOK
+    DURABILITY: 0
+    NAME: '&7(&d!&7) &d&l%KIT% &7(&d!&7)'
+    LORE: []
+  EVENT_SELECT:
+    SLOT: 7
+    MATERIAL: EYE_OF_ENDER
+    DURABILITY: 0
+    NAME: '&dHost Events &7(Right Click)'
+    LORE: []
+  LEADERBOARD_MENU:
+    SLOT: 8
+    MATERIAL: EMERALD
+    DURABILITY: 0
+    NAME: '&dView Leaderboards &7(Right Click)'
+    LORE: []
+  RANDOM_TELEPORT:
+    SLOT: 8
+    MATERIAL: STICK
+    DURABILITY: 0
+    NAME: '&7(&d!&7) &d&lRandom Teleport &7(&d!&7)'
+    LORE: []
+  HIDE_ALL_PLAYERS:
+    SLOT: 5
+    MATERIAL: NAME_TAG
+    DURABILITY: 0
+    NAME: '&7(&d!&7) &d&lHide Players &7(&d!&7)'
+    LORE: []
+  RESET:
+    SLOT: 9
+    MATERIAL: REDSTONE
+    DURABILITY: 0
+    NAME: '&7(&d!&7) &d&lReset &7(&d!&7)'
+    LORE: []
+  COMPASS:
+    SLOT: 1
+    MATERIAL: COMPASS
+    DURABILITY: 0
+    NAME: '&7(&d!&7) &d&lPush Forward &7(&d!&7)'
+    LORE: []
+  ONLINE_STAFF:
+    SLOT: 2
+    MATERIAL: PAPER
+    DURABILITY: 0
+    NAME: '&7(&d!&7) &d&lOnline Staff &7(&d!&7)'
+    LORE: []
+  VIEW_INVENTORYSTAFF:
+    SLOT: 3
+    MATERIAL: NETHER_STAR
+    DURABILITY: 0
+    NAME: '&7(&d!&7) &d&lInspect Inventory &7(&d!&7)'
+    LORE: []
+  FREEZE:
+    SLOT: 7
+    MATERIAL: PACKED_ICE
+    DURABILITY: 0
+    NAME: '&7(&d!&7) &d&lFreeze &7(&d!&7)'
+    LORE: []
+  VIEWTOURNAMENT:
+    SLOT: 3
+    MATERIAL: NETHER_STAR
+    DURABILITY: 0
+    NAME: '&7(&d!&7) &d&lView Tournament &7(&d!&7)'
+    LORE: []
+  LEAVETOURNAMENT:
+    SLOT: 7
+    MATERIAL: REDSTONE
+    DURABILITY: 0
+    NAME: '&7(&d!&7) &c&lLeave Tournament &7(&d!&7)'
+    LORE: []

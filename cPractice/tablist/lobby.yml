@@ -1,0 +1,245 @@
+TABLIST:
+  LEFT:
+    '1':
+      text: '{bars}'
+      head: '{gray}'
+    '2':
+      text: ''
+      head: ''
+    '3':
+      text: ''
+      head: ''
+    '4':
+      text: ''
+      head: ''
+    '5':
+      text: ''
+      head: ''
+    '6':
+      text: ''
+      head: ''
+    '7':
+      text: ''
+      head: ''
+    '8':
+      text: '&dIn Queue&7: &f{inqueue}'
+      head: '{pink}'
+    '9':
+      text: '&dIn Fight&7: &f{infight}'
+      head: '{pink}'
+    '10':
+      text: '&dEvent&7: {event}'
+      head: '{pink}'
+    '11':
+      text: ''
+      head: ''
+    '12':
+      text: ''
+      head: ''
+    '13':
+      text: ''
+      head: ''
+    '14':
+      text: ''
+      head: ''
+    '15':
+      text: ''
+      head: ''
+    '16':
+      text: ''
+      head: ''
+    '17':
+      text: ''
+      head: ''
+    '18':
+      text: '&dStore'
+      head: '{discord}'
+    '19':
+      text: '&7store.minemen.club'
+      head: '{light_purple}'
+    '20':
+      text: '{bars}'
+      head: '{gray}'
+  CENTER:
+    '1':
+      text: '{bars}'
+      head: '{gray}'
+    '2':
+      text: '&d&lSeason 1'
+      head: ''
+    '3':
+      text: '&7{online}/{slots}'
+      head: ''
+    '4':
+      text: ''
+      head: ''
+    '5':
+      text: ''
+      head: ''
+    '6':
+      text: ''
+      head: ''
+    '7':
+      text: ''
+      head: ''
+    '8':
+      text: ''
+      head: ''
+    '9':
+      text: ''
+      head: ''
+    '10':
+      text: ''
+      head: ''
+    '11':
+      text: ''
+      head: ''
+    '12':
+      text: ''
+      head: ''
+    '13':
+      text: ''
+      head: ''
+    '14':
+      text: ''
+      head: ''
+    '15':
+      text: ''
+      head: ''
+    '16':
+      text: ''
+      head: ''
+    '17':
+      text: ''
+      head: ''
+    '18':
+      text: '&dTwitter'
+      head: '{twitter}'
+    '19':
+      text: '&7@MinemenClub'
+      head: '{pink}'
+    '20':
+      text: '{bars}'
+      head: '{gray}'
+  RIGHT:
+    '1':
+      text: '{bars}'
+      head: '{gray}'
+    '2':
+      text: ''
+      head: ''
+    '3':
+      text: ''
+      head: ''
+    '4':
+      text: '&dGlobal Elo&7: &f{globalelo}'
+      head: '{pink}'
+    '5':
+      text: '&dNoDebuff&7: &f{nodebuff_elo}'
+      head: '{pink}'
+    '6':
+      text: '&dBoxing&7: &f{boxing_elo}'
+      head: '{pink}'
+    '7':
+      text: ''
+      head: ''
+    '8':
+      text: ''
+      head: ''
+    '9':
+      text: ''
+      head: ''
+    '10':
+      text: ''
+      head: ''
+    '11':
+      text: ''
+      head: ''
+    '12':
+      text: ''
+      head: ''
+    '13':
+      text: ''
+      head: ''
+    '14':
+      text: ''
+      head: ''
+    '15':
+      text: ''
+      head: ''
+    '16':
+      text: ''
+      head: ''
+    '17':
+      text: ''
+      head: ''
+    '18':
+      text: '&dDiscord'
+      head: '{ziue}'
+    '19':
+      text: '&7discord.gg/MinemenClub'
+      head: '{pink}'
+    '20':
+      text: '{bars}'
+      head: '{gray}'
+  EXTERNAL-RIGHT:
+    '1':
+      text: '{bars}'
+      head: '{gray}'
+    '2':
+      text: ''
+      head: ''
+    '3':
+      text: ''
+      head: ''
+    '4':
+      text: ''
+      head: ''
+    '5':
+      text: ''
+      head: ''
+    '6':
+      text: ''
+      head: ''
+    '7':
+      text: ''
+      head: ''
+    '8':
+      text: ''
+      head: ''
+    '9':
+      text: '&d&lYour Information'
+      head: '{player}'
+    '10':
+      text: '&dName&7: &f{name}'
+      head: ''
+    '11':
+      text: '&dRank&7:&r {rank}'
+      head: ''
+    '12':
+      text: '&dPing&7: &f{ping}'
+      head: ''
+    '13':
+      text: ''
+      head: ''
+    '14':
+      text: ''
+      head: ''
+    '15':
+      text: ''
+      head: ''
+    '16':
+      text: ''
+      head: ''
+    '17':
+      text: ''
+      head: ''
+    '18':
+      text: '&dWebsite'
+      head: '{ziue}'
+    '19':
+      text: '&7store.minemen.club'
+      head: '{pink}'
+    '20':
+      text: '{bars}'
+      head: '{gray}'
